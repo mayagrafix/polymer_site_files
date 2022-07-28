@@ -1,0 +1,6 @@
+2022-06-28 11:32:08: FTP: use EPSV
+2022-06-28 11:32:08: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-28 11:32:08: -- Analysis Started by User Command
+2022-06-28 11:32:12: R: On disk ftp://184.168.109.105:21 space required for sync is 0.00, free space is unknown
+2022-06-28 11:32:12: Changes: 0, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 183
+2022-06-28 11:32:12: -- Analysis Complete. Time 00:00:05, Speed: 36 files/s

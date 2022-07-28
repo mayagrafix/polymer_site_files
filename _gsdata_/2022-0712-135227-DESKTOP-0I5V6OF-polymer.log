@@ -1,0 +1,5 @@
+2022-07-12 13:52:33: == Sync Started by User Command
+2022-07-12 13:52:33: Copy New 'C:/personal files/polymer_develop/test.php' -> 'ftp://psrt.cusat.ac.in:21/public_html/PSRTNEW/test.php' (26)
+2022-07-12 13:52:33: Copy Over 'C:/personal files/polymer_develop/index.php' -> 'ftp://psrt.cusat.ac.in:21/public_html/PSRTNEW/index.php' (3,363)
+2022-07-12 13:52:33: Copy Over 'C:/personal files/polymer_develop/includes/functions.php' -> 'ftp://psrt.cusat.ac.in:21/public_html/PSRTNEW/includes/functions.php' (11,791)
+2022-07-12 13:52:34: == Sync Complete. Time: 00:00:02, Speed: 0.00/s, OK: 3, Errors: 0

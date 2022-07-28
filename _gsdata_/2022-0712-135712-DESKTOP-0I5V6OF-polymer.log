@@ -1,0 +1,4 @@
+2022-07-12 13:57:15: == Sync Started by User Command
+2022-07-12 13:57:15: Delete File ftp://psrt.cusat.ac.in:21/public_html/PSRTNEW/test.php
+2022-07-12 13:57:15: Start only 0 threads, limited by tasks to run
+2022-07-12 13:57:16: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, OK: 1, Errors: 0

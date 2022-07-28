@@ -1,0 +1,14 @@
+2022-06-28 13:32:59: FTP: use EPSV
+2022-06-28 13:32:59: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-28 13:33:00: == Sync Started by User Command
+2022-06-28 13:33:01: FTP: use EPSV
+2022-06-28 13:33:01: FTP: use EPSV
+2022-06-28 13:33:01: FTP: use EPSV
+2022-06-28 13:33:01: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-28 13:33:01: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-28 13:33:01: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-28 13:33:03: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/datafiles/table-pta-members.csv' -> 'ftp://184.168.109.105:21/psrt/datafiles/table-pta-members.csv' (815)
+2022-06-28 13:33:03: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/index.php' -> 'ftp://184.168.109.105:21/psrt/index.php' (4,626)
+2022-06-28 13:33:03: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/committees.php' -> 'ftp://184.168.109.105:21/psrt/committees.php' (5,094)
+2022-06-28 13:33:04: Copy New 'D:/Work/Cochin University/Polymer Site/polymer_develop/pdf-files/mandatory_disclosure_april_2022.pdf' -> 'ftp://184.168.109.105:21/psrt/pdf-files/mandatory_disclosure_april_2022.pdf' (351,833)
+2022-06-28 13:33:08: == Sync Complete. Time: 00:00:09, Speed: 110.51 KB/s, OK: 4, Errors: 0

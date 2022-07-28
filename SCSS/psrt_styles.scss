@@ -1,0 +1,322 @@
+/* Colors */
+$colors: (
+        dark-brown: #700114,
+        dark-blue: #1753ab,
+        dark-gray: #2c3138,
+        light-orange: #ffebd9,
+        blue-gray: #8493a8,
+        white: #FFFFFF,
+        light-yellow: #ffc938,
+        light-blue: #a3e1ff,
+        light-gray: #e6e6e6
+);
+
+/* Colors */
+
+@mixin color-modifiers($attribute: 'color') {
+  @each $name, $hex in $colors {
+    &-#{$name} {
+      #{$attribute}: $hex !important;
+    }
+  }
+}
+
+/* Generate Background Color Classes */
+.bg {
+  @include color-modifiers($attribute: 'background-color');
+}
+
+/* Generate Foreground Color Classes */
+.color {
+  @include color-modifiers($attribute: 'color');
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.top-nav a {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 10px !important;
+}
+
+.top-nav li:not(:last-child) a {
+  margin-right: 10px !important;
+}
+
+.top-nav a.active,
+.top-nav a:hover {
+  background-color: map-get($colors, 'light-yellow') !important;
+  color: map-get($colors, 'dark-brown') !important;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: end;
+}
+
+.logo-container a img {
+  transition: transform .3s; /* Animation */
+}
+
+.logo-container a:hover img {
+  transform: scale(0.95) !important;
+}
+
+.carousel-inner {
+  border: 1px solid map-get($colors, 'dark-brown');
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.top-nav-collapse-button {
+  border: 1px solid white !important;
+}
+
+.vert-nav-collapse-button {
+  border: 1px solid black !important;
+}
+
+#vertical-menu a {
+  width: 100% !important;
+  padding-left: 15px;
+  color: black !important;
+}
+
+#vertical-menu a.active, #vertical-menu a:hover {
+  background-color: map-get($colors, 'dark-brown');
+  color: white !important;
+}
+
+.vertical-menu {
+  border-radius: 5px !important;
+}
+
+.footer p {
+  font-size: 1em !important;
+}
+
+.footer-small-text {
+  font-size: 0.9em !important;
+}
+
+.footer a, .footer a:active {
+  color: map-get($colors, 'light-orange') !important;
+  text-decoration: none !important;
+}
+
+.footer a:hover {
+  color: map-get($colors, 'light-yellow') !important;
+}
+
+.title-box {
+  background-color: map-get($colors, 'dark-blue');
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.title-text {
+  font-size: 2em !important;
+  line-height: 1.5em !important;
+}
+
+.faculty-box {
+  border-radius: 8px !important;
+}
+
+.faculty-name {
+  padding: 5px 20px;
+  background-color: map-get($colors, 'dark-blue');
+  color: white;
+  font-size: 1em;
+  font-weight: 600 !important;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px !important;
+}
+
+.faculty-designation {
+  color: black !important;
+}
+
+.faculty-link a {
+  text-decoration: none;
+}
+
+.faculty-link img {
+  border: 2px solid white !important;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: transform .3s; /* Animation */
+}
+
+.faculty-link a:hover img {
+  transform: scale(0.9) !important;
+}
+
+.former-professors {
+  font-size: 1.3em !important;
+  font-weight: 600;
+  padding: 10px 30px;
+  background-color: map-get($colors, 'dark-blue');
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.text-link, .table-link {
+  text-decoration: none;
+  color: map-get($colors, 'dark-blue');
+  font-weight: bold;
+}
+
+.text-link:hover, .table-link:hover {
+  color: map-get($colors, 'dark-brown');
+}
+
+.sub-headline {
+  @extend .former-professors;
+  font-size: 1em !important;
+  background-color: map-get($colors, 'dark-blue');
+  display: inline-block;
+}
+
+.content-button, .content-button:active, .content-button:focus {
+  background-color: map-get($colors, 'dark-brown');
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 20px !important;
+  transition: 0.5s;
+  border: none !important;
+}
+
+.content-button:hover {
+  background-color: map-get($colors, 'light-yellow');
+  color: black;
+  transform: scale(0.95);
+}
+
+.scroll-margin {
+  scroll-margin-top: 250px !important;
+}
+
+.single image {
+  height: 400px !important;
+  width: auto;
+  object-fit: cover !important;
+}
+
+
+
+/* Stellar Navigation Styles */
+.stellarnav a {
+  padding: 15px 20px !important;
+  font-weight: 600 !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.stellarnav a span.icon-plus:before, .stellarnav a span.icon-plus:after  {
+  border-bottom-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.stellarnav ul {
+  background-color: map-get($colors, "dark-brown") !important;
+}
+
+.stellarnav .sub-menu, .stellarnav .sub-menu a {
+  background-color: map-get($colors, "light-yellow") !important;
+  color: map-get($colors, "dark-brown") !important;
+}
+
+.stellarnav .sub-menu a:hover {
+  background-color: map-get($colors, "dark-brown") !important;
+  color: map-get($colors, "light-yellow") !important;
+}
+
+.stellarnav a:hover, .stellarnav a.active-menu {
+  background-color: map-get($colors, "light-yellow") !important;
+  color: map-get($colors, "dark-brown") !important;
+}
+
+.stellarnav a.active-wtout-submenu {
+  pointer-events: none;
+}
+
+.stellarnav a:hover span.icon-plus:before, .stellarnav a:hover span.icon-plus:after {
+  border-bottom-color: map-get($colors, "dark-brown") !important;
+}
+
+.stellarnav a span.bars span {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* End Stellar Navigation Styles */
+
+/* Lightboxed Images Additional Styles */
+.lightboxed--frame img {
+  border-radius: 8px !important;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid map-get($colors, "light-orange");
+}
+/* End Lightboxed Images Additional Styles */
+
+/* Media Query for Tabs & Mobiles */
+@media only screen and (max-width: 991px) {
+  .logo-container {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .carousel-inner img {
+    height: 200px !important;
+    width: auto !important;
+    object-fit: cover !important;
+  }
+
+  .scroll-margin {
+    scroll-margin-top: 0px !important;
+  }
+
+}
+/* End Media Query for Tabs & Mobiles */
+
+/* Media Query for Mobiles */
+@media only screen and (max-width: 576px) {
+  .title-text {
+    font-size: 1.5em !important;
+    line-height: 1.2em !important;
+  }
+
+  .single-image {
+    height: 200px !important;
+    object-fit: cover !important;
+  }
+}
+/* End Media Query for Mobiles */
+
+
+
+#back-to-top-button {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 1000; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 12px; /* Increase font size */
+}
+
+#back-to-top-button:hover {
+  background-color: map-get($colors, 'dark-brown') !important; /* Add a dark-grey background on hover */
+}

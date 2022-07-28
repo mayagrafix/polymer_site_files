@@ -1,0 +1,4 @@
+2022-07-12 12:07:54: == Sync Started by User Command
+2022-07-12 12:07:54: Start only 1 threads, limited by tasks to run
+2022-07-12 12:07:54: Copy Over 'C:/personal files/polymer_develop/includes/header.php' -> 'ftp://psrt.cusat.ac.in:21/public_html/PSRTNEW/includes/header.php' (5,575)
+2022-07-12 12:07:55: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, OK: 1, Errors: 0

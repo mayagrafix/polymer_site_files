@@ -1,0 +1,8 @@
+2022-07-11 09:38:57: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-11 09:38:58: == Sync Started by User Command
+2022-07-11 09:38:59: Start only 2 threads, limited by tasks to run
+2022-07-11 09:38:59: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-11 09:38:59: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-11 09:39:01: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/footer.php' -> 'ftp://184.168.109.105:21/psrt/includes/footer.php' (1,219)
+2022-07-11 09:39:01: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/header.php' -> 'ftp://184.168.109.105:21/psrt/includes/header.php' (2,604)
+2022-07-11 09:39:06: == Sync Complete. Time: 00:00:09, Speed: 955.00/s, OK: 2, Errors: 0

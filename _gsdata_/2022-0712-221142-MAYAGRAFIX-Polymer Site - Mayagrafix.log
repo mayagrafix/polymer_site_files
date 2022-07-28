@@ -1,0 +1,9 @@
+2022-07-12 22:11:55: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-12 22:11:55: == Sync Started by User Command
+2022-07-12 22:11:56: Start only 2 threads, limited by tasks to run
+2022-07-12 22:11:57: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-12 22:11:57: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-12 22:11:59: FTP: MLSD/MLST is broken, so turn it off: Listing one file is not supported (returns nothing): Not Found in the MLST
+2022-07-12 22:11:59: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/functions.php' -> 'ftp://184.168.109.105:21/psrt/includes/functions.php' (11,791)
+2022-07-12 22:12:00: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/index.php' -> 'ftp://184.168.109.105:21/psrt/index.php' (3,360)
+2022-07-12 22:12:05: == Sync Complete. Time: 00:00:10, Speed: 44.65 KB/s, OK: 4, Errors: 0

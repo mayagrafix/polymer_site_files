@@ -1,0 +1,21 @@
+index.php,Home,Department of Polymer Science & Rubber Technology,hasDropDown,homeDropDown
+pdf-files/bos_2021.pdf,BOS,BOS,isSubMenu,Home
+pdf-files/iso.pdf,ISO,ISO,isSubMenu,Home
+pdf-files/brochure-psrt-2021.pdf,Brochure,Brochure,isSubMenu,Home
+history.php,History,History of PS & RT,noDropDown,mainNav
+academics.php,Academics,PS & RT Academics,hasDropDown,academicsDropDown
+academics.php#courses,Courses,PS & RT Courses,isSubMenu,Academics
+academics.php#research,Research,PS & RT Research,isSubMenu,Academics
+academics.php#currentstudents,Current Students,Current Students - PS & RT,isSubMenu,Academics
+faculty.php,Faculty,Faculty - PS & RT,noDropDown,mainNav
+infrastructure.php,Infrastructure,Infrastructure - PS & RT,hasDropDown,infrastructureDropDown
+infrastructure.php#facility,Facility,PS & RT Facility,isSubMenu,Infrastructure
+infrastructure.php#consultancy,Consultancy,PS & RT Consultancy Charges,isSubMenu,Infrastructure
+infrastructure.php#library,Library,PS & RT Library,isSubMenu,Infrastructure
+committees.php,Committees,PS & RT - Various Committees,hasDropDown,committeesDropDown
+committees.php#alumni,Alumni,PS & RT Alumni,isSubMenu,Committees
+committees.php#pta,PTA,PS & RT PTA,isSubMenu,Committees
+committees.php#rti,RTI,PS & RT RTI,isSubMenu,Committees
+committees.php#anti-ragging,Anti-Ragging / Grievance,PS & RT Anti-Ragging / Grievance,isSubMenu,Committees
+gallery.php,Gallery,Gallery - PS & RT,noDropDown,mainNav
+contact.php,Contact,Contact - PS & RT,noDropDown,mainNav

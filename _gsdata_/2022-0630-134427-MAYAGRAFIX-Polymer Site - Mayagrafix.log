@@ -1,0 +1,17 @@
+2022-06-30 13:44:38: FTP: use EPSV
+2022-06-30 13:44:38: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-30 13:44:38: == Sync Started by User Command
+2022-06-30 13:44:39: FTP: use EPSV
+2022-06-30 13:44:39: FTP: use EPSV
+2022-06-30 13:44:39: FTP: use EPSV
+2022-06-30 13:44:39: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-30 13:44:39: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-30 13:44:39: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-30 13:44:41: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/datafiles/table-phd-research-areas.csv' -> 'ftp://184.168.109.105:21/psrt/datafiles/table-phd-research-areas.csv' (353)
+2022-06-30 13:44:41: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/academics.php' -> 'ftp://184.168.109.105:21/psrt/academics.php' (10,002)
+2022-06-30 13:44:42: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/committees.php' -> 'ftp://184.168.109.105:21/psrt/committees.php' (4,640)
+2022-06-30 13:44:42: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/history.php' -> 'ftp://184.168.109.105:21/psrt/history.php' (7,719)
+2022-06-30 13:44:42: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/functions.php' -> 'ftp://184.168.109.105:21/psrt/includes/functions.php' (11,012)
+2022-06-30 13:44:42: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/index.php' -> 'ftp://184.168.109.105:21/psrt/index.php' (3,316)
+2022-06-30 13:44:43: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/infrastructure.php' -> 'ftp://184.168.109.105:21/psrt/infrastructure.php' (7,382)
+2022-06-30 13:44:47: == Sync Complete. Time: 00:00:10, Speed: 67.68 KB/s, OK: 7, Errors: 0

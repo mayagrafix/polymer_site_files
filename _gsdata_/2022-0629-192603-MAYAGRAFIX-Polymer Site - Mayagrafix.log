@@ -1,0 +1,24 @@
+2022-06-29 19:26:27: FTP: use EPSV
+2022-06-29 19:26:27: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-29 19:26:27: == Sync Started by User Command
+2022-06-29 19:26:29: Create Folder ftp://184.168.109.105:21/psrt/images/carousel
+2022-06-29 19:26:29: FTP: use EPSV
+2022-06-29 19:26:29: FTP: use EPSV
+2022-06-29 19:26:29: FTP: use EPSV
+2022-06-29 19:26:29: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-29 19:26:29: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-29 19:26:29: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-06-29 19:26:30: Copy New 'D:/Work/Cochin University/Polymer Site/polymer_develop/images/carousel/carousel_02.jpg' -> 'ftp://184.168.109.105:21/psrt/images/carousel/carousel_02.jpg' (137,813)
+2022-06-29 19:26:31: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/css/psrt_styles.css.map' -> 'ftp://184.168.109.105:21/psrt/css/psrt_styles.css.map' (1,260)
+2022-06-29 19:26:31: Copy New 'D:/Work/Cochin University/Polymer Site/polymer_develop/images/carousel/carousel_03.jpg' -> 'ftp://184.168.109.105:21/psrt/images/carousel/carousel_03.jpg' (95,807)
+2022-06-29 19:26:31: Move File ftp://184.168.109.105:21/psrt/images/carousel_01.jpg -> ftp://184.168.109.105:21/psrt/images/carousel/carousel_01.jpg
+2022-06-29 19:26:31: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/css/psrt_styles.css' -> 'ftp://184.168.109.105:21/psrt/css/psrt_styles.css' (6,134)
+2022-06-29 19:26:31: Copy New 'D:/Work/Cochin University/Polymer Site/polymer_develop/images/carousel/carousel_04.jpg' -> 'ftp://184.168.109.105:21/psrt/images/carousel/carousel_04.jpg' (85,764)
+2022-06-29 19:26:32: Copy New 'D:/Work/Cochin University/Polymer Site/polymer_develop/images/facility_01.jpg' -> 'ftp://184.168.109.105:21/psrt/images/facility_01.jpg' (62,332)
+2022-06-29 19:26:32: Copy New 'D:/Work/Cochin University/Polymer Site/polymer_develop/images/facility_02.jpg' -> 'ftp://184.168.109.105:21/psrt/images/facility_02.jpg' (73,996)
+2022-06-29 19:26:32: Copy New 'D:/Work/Cochin University/Polymer Site/polymer_develop/images/library.jpg' -> 'ftp://184.168.109.105:21/psrt/images/library.jpg' (115,604)
+2022-06-29 19:26:33: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/functions.php' -> 'ftp://184.168.109.105:21/psrt/includes/functions.php' (10,986)
+2022-06-29 19:26:33: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/header.php' -> 'ftp://184.168.109.105:21/psrt/includes/header.php' (2,661)
+2022-06-29 19:26:33: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/index.php' -> 'ftp://184.168.109.105:21/psrt/index.php' (3,347)
+2022-06-29 19:26:33: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/infrastructure.php' -> 'ftp://184.168.109.105:21/psrt/infrastructure.php' (7,383)
+2022-06-29 19:26:37: == Sync Complete. Time: 00:00:10, Speed: 164.50 KB/s, OK: 15, Errors: 0

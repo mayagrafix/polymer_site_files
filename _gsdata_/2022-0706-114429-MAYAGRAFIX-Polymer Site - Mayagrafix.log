@@ -1,0 +1,11 @@
+2022-07-06 11:44:51: FTP: use EPSV
+2022-07-06 11:44:52: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-06 11:44:53: == Sync Started by User Command
+2022-07-06 11:44:54: Start only 2 threads, limited by tasks to run
+2022-07-06 11:44:54: FTP: use EPSV
+2022-07-06 11:44:54: FTP: use EPSV
+2022-07-06 11:44:54: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-06 11:44:54: FTP: Server rejected UTF-8 that it promised us: Unknown command
+2022-07-06 11:44:57: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/functions.php' -> 'ftp://184.168.109.105:21/psrt/includes/functions.php' (12,002)
+2022-07-06 11:44:57: Copy Over 'D:/Work/Cochin University/Polymer Site/polymer_develop/includes/header.php' -> 'ftp://184.168.109.105:21/psrt/includes/header.php' (2,663)
+2022-07-06 11:45:04: == Sync Complete. Time: 00:00:16, Speed: 14.56 KB/s, OK: 2, Errors: 0
